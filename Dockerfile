@@ -1,4 +1,4 @@
-FROM ruby:3.1.2-alpine3.15 AS builder
+FROM ruby:3.1.2-alpine3.16 AS builder
 
 ENV APP_ROOT /app
 ENV LANG C.UTF-8
