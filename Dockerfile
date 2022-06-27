@@ -15,7 +15,7 @@ RUN bundle install && \
 
 #################################################
 
-FROM ruby:3.1.2-alpine3.15
+FROM ruby:3.1.2-alpine3.16
 
 WORKDIR $APP_ROOT
 
